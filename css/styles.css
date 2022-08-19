@@ -212,6 +212,10 @@
     color: var(--light-txt-cl);
     list-style: none;
 }
+.container-link:hover,
+.container-link:focus {
+    color: var(--accent-txt-cl);
+}
 .footer-logo {
     font-family: var(--secondary-font);
     font-weight: 700;
